@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Drink & Blink",
+  "version": "1.0",
+  "description": "Drink & Stretch Reminder – Prioritize Your Well-being, One Gentle Nudge at a Time! Drink & Stretch Reminder is your personal wellness companion right inside your browser. Designed for students, remote workers, developers, and anyone glued to a screen, this extension gently nudges you to take essential wellness breaks — sip water and stretch your body — just when you need it.",
+  "permissions": ["storage", "notifications", "alarms"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      
+      "128": "logo.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    
+    "128": "logo.png"
+  }
+  
+}
+
